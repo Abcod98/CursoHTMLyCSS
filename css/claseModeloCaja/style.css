@@ -1,0 +1,13 @@
+/* Elemento universal importante agregarlo en nuestros estilos "*" */
+* {
+  box-sizing: border-box; /* Nos sirve para que detecte nuestro padding y borde en el modelo caja */
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  height: 500px;
+  border: 10px solid gray;
+  padding: 20px 35px;
+}
