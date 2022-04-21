@@ -1,0 +1,45 @@
+* {
+  background-color: khaki;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+div {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  width: 300px;
+}
+
+.verdura {
+  font-size: 20px;
+  color: brown;
+}
+
+#carne {
+  color: chocolate;
+  font-size: 25px;
+}
+
+figure {
+  display: grid;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+li{
+  margin-left: 15px;
+  color: crimson;
+}
+
+ol li {
+  color: black;
+}
