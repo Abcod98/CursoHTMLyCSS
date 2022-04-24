@@ -1,0 +1,18 @@
+/* Adjacent Siblings */
+.div-1 h2 + p {
+  color: red;
+}
+
+/* General Sibling */
+.div-2 h2 ~ p {
+  color: blue;
+}
+
+/* Hijo y Descendiente */
+.div-3 div > p { /* div > p "Hijo directo" */
+  color: green;
+}
+
+.div-3 div p { /* div p "Descendiente" */
+  color: yellow;
+}
