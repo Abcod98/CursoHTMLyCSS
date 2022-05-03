@@ -12,7 +12,7 @@ body {
 .container {
   border: .3rem solid black;
   display: flex;
-  /* align-items: center; */
+  /* align-items: center; */ /* Alinea los objetos de forma vertical */
   flex-wrap: wrap; /* Se adapta al tama;o de los objetos */
   justify-content: space-evenly; /* Deja centrado los objetos */
 }
